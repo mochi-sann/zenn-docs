@@ -10,5 +10,10 @@
   },
   "scripts": {
     "start": "zenn preview"
+  },
+  "devDependencies": {
+    "textlint": "^12.1.1",
+    "textlint-rule-preset-ja-spacing": "^2.2.0",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0"
   }
 }
