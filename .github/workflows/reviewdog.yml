@@ -12,7 +12,7 @@ jobs:
       - name: Setup node/npm
         uses: actions/setup-node@v1
         with:
-          node-version: '15'
+          node-version: "15"
       - name: textlint-github-pr-check
         uses: tsuyoshicho/action-textlint@v3
         with:
@@ -31,4 +31,3 @@ jobs:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
           textlint_flags: "articles/**"
-

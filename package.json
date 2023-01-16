@@ -6,12 +6,20 @@
   "author": "mochi-sann <44772513+mochi-sann@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "zenn-cli": "^0.1.125"
+    "remark": "^14.0.2",
+    "zenn-cli": "^0.1.135"
   },
   "scripts": {
-    "start": "zenn preview"
+    "start": "zenn preview",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "2.8.3",
     "textlint": "^12.1.1",
     "textlint-rule-preset-ja-spacing": "^2.2.0",
     "textlint-rule-preset-ja-technical-writing": "^7.0.0"
