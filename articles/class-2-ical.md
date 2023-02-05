@@ -3,7 +3,7 @@ title: "大学の時間割をカレンダーアプリで表示出来るように
 emoji: "🗓️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["nextjs", "typescript", "tauri"]
-published: false
+published: true
 ---
 
 # 作ったもの
