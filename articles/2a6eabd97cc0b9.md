@@ -2,7 +2,7 @@
 title: "slコマンドとlsコマンドを合体させた「sls」を作った"
 emoji: "🚂"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["deno", "typescipt", "cli", "terminal"]
+topics: ["deno", "typescript", "cli", "terminal"]
 published: true
 ---
 
