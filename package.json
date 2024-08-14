@@ -4,10 +4,9 @@
   "main": "index.js",
   "repository": "git@github.com:mochi-sann/zenn_detas.git",
   "author": "mochi-sann <44772513+mochi-sann@users.noreply.github.com>",
-  "license": "MIT",
   "dependencies": {
     "remark": "^14.0.2",
-    "zenn-cli": "^0.1.143"
+    "zenn-cli": "^0.1.154"
   },
   "scripts": {
     "start": "zenn preview",
