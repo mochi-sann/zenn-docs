@@ -6,7 +6,7 @@
   "author": "mochi-sann <44772513+mochi-sann@users.noreply.github.com>",
   "dependencies": {
     "remark": "^14.0.2",
-    "zenn-cli": "^0.1.154"
+    "zenn-cli": "^0.2.11"
   },
   "scripts": {
     "start": "zenn preview",
